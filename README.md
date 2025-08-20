@@ -2,20 +2,31 @@
 
 A Flask-based web application for university alumni to connect, network, and share opportunities.
 
-##  Features
+## 🚀 Features Implemented
 - User Registration & Authentication
-- Alumni Profiles with verification system
-- Advanced search and directory
-- Private messaging system
-- Job board and event management
+- Profile Management System
+- SQLite Database with SQLAlchemy
+- Flask-Login Session Management
 
 ## 🛠️ Tech Stack
-- **Backend:** Python, Flask, SQLAlchemy
-- **Database:** SQLite (development)
-- **Authentication:** Flask-Login, Werkzeug security
-- **Frontend:** HTML, CSS, Jinja2 templates
+- **Backend:** Python, Flask
+- **Database:** SQLAlchemy with SQLite
+- **Authentication:** Flask-Login, Werkzeug
+- **Templates:** Jinja2, HTML
 
 ## 📦 Installation
-1. Clone the repository:
 ```bash
+# Clone repository
 git clone https://github.com/your-username/alumni-network-portal.git
+
+# Create virtual environment
+python -m venv venv
+
+# Activate venv (Windows)
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run application
+flask run
